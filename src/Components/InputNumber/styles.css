@@ -1,0 +1,54 @@
+.selectTime  {
+  width: 100%;
+  padding: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.input-group {
+  padding: 10px;
+  width: 30%;
+}
+
+.input-group label {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #2a9d8f;
+}
+
+.input-time {
+  width: 100%;
+  padding: 5px 2px;
+  text-align: center;
+  outline: none;
+}
+
+.btn-start {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #76c893;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 20px;
+  transition: all ease 0.3s;
+}
+
+.btn-start:hover {
+  border: 1px solid #76c893;
+  background-color: #fff;
+  color: #76c893;
+
+  transition: all ease 0.3s;
+}

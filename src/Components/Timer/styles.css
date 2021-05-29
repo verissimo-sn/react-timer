@@ -1,0 +1,54 @@
+.times {
+  margin-top: 20px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  border: 1px solid #ddbea9;
+  margin: 0 10px;
+  padding: 10px;
+
+  font-size: 30px;
+  position: relative
+}
+
+.time:first-child::before {
+  display: none;
+}
+
+.time:before {
+  content: ':';
+  left: -15px;
+  position: absolute;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.new-timer {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #1a759f;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 20px;
+  transition: all ease 0.3s;
+}
+
+.new-timer:hover {
+  border: 1px solid #1a759f;
+  background-color: #fff;
+  color: #1a759f;
+
+  transition: all ease 0.3s;
+}
